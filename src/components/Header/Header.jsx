@@ -5,7 +5,7 @@ import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
-    <div className="px-2 flex mx-2">
+    <div className="px-3 flex mx-2">
       <Hamburger />
       <Logo />
       <SearchBar />

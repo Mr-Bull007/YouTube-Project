@@ -37,3 +37,9 @@ Main Body
 - Created the SideBar and the required components ie SideBar.jsx and SideCard.jsx
 - Using Link from react-router-dom in the Logo in header.
 - Created TagList component of the main Body.
+- Made the Body of HomePageBody for HomePage.
+- SUGGESTION: I think the way I had arranged my components is not efficient. Because, when I route to "/watch", VideoPage loads up which contains the Header and other things again. So, they have to be rendered again.
+- I re-arranged the components, created a Layout component and deleted the not required files.
+- Also, created the VideoPageBody, containing WatchPage.
+- Used useLocation hook, for rendering sidebar only on a particular page.
+- Updated Routing with children.

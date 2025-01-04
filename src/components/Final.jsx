@@ -1,18 +1,26 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "./HomePage";
+import Body from "./HomePageBody/Body";
+import Layout from "./Layout";
+import WatchPage from "./VideoPageBody/WatchPage";
 
 const Final = () => {
   const appRouter = createBrowserRouter([
     {
       path: "/",
-      element: <HomePage />,
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <Body />,
+        },
+        {
+          path: "watch",
+          element: <WatchPage />,
+        },
+      ],
     },
   ]);
-  return (
-    <div>
-      <RouterProvider router={appRouter} />
-    </div>
-  );
+  return <RouterProvider router={appRouter} />;
 };
 
 export default Final;

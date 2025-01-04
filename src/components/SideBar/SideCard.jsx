@@ -9,9 +9,8 @@ const SideCard = ({name, imgIconURL}) => {
         <div className={`${navOpen ? "flex mt-2 pt-2" : "mt-4"}`}>
             <div className="mx-6 pt-[2px] size-5">
             <img className="object-cover" alt={name} src={imgIconURL} />
-            {/* {!navOpen && <div className="text-xs ">{name}</div>} */}
             </div>
-            <div className={`${navOpen ? "font-medium" : "text-[10px] text-center"}`}>
+            <div className={`${navOpen ? "font-medium text-sm mr-1 pr-1" : "text-[10px] text-center"}`}>
             <h2>{name}</h2>
             </div>
         </div>

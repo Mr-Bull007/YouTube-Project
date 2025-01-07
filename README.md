@@ -25,6 +25,11 @@ Main Body
 - Video List
   - Videos
 
+Video Page
+
+- Watch Page
+- CommentContainer
+
 ~ Steps Followed:
 
 - Created React App using vite
@@ -43,3 +48,7 @@ Main Body
 - Also, created the VideoPageBody, containing WatchPage.
 - Used useLocation hook, for rendering sidebar only on a particular page.
 - Updated Routing with children.
+- Working on the Search Functionality.
+- Learning about the concept of "Debouncing" related to API calls w.r.t search functionality.
+- Executing debouncing in search functionality.
+- Making comments section with infinitely nested comments.

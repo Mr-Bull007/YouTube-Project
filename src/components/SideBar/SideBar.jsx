@@ -5,7 +5,7 @@ const SideBar = () => {
   const isNavOpen = useSelector(store => store.header.isMenuOpen);
 
   return (
-    <div className={`${isNavOpen ? "w-[15%] mt-2" : "w-[5%] mt-4"}`}>
+    <div className={`${isNavOpen ? "w-[15%] mt-16" : "w-[5%] mt-16"}`}>
       <SideCard
         name="Home"
         imgIconURL="https://www.svgrepo.com/show/522146/home.svg"

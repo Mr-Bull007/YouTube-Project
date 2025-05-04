@@ -31,6 +31,7 @@ This project replicates the core frontend experience of YouTube, including:
 - Link in the README using:
 ```md
 ![Home Screenshot](./screenshots/homepage.png)
+```
 
 
 ## 🚀 Features

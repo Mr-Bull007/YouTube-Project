@@ -14,24 +14,14 @@ This project replicates the core frontend experience of YouTube, including:
 ## 📸 Screenshots
 
 ### 🖥️ Home Page
-> (insert screenshot of your homepage with sidebar + videos)
-
+- ### Home Page
+![Home Page](./src/assets/screenshots/HomePage.png) 
 ### 🎬 Watch Page
-> (insert screenshot showing the video player with chat and comments)
-
+![Watch Page](./src/assets/screenshots/WatchPage.png) 
 ### 💬 Live Chat
-> (insert screenshot where the live chat is scrolling)
-
+![Live Chat](./src/assets/screenshots/LiveChat.png) 
 ### 🧵 Nested Comments
-> (insert screenshot showing deep comment nesting with borders)
-
-📝 **How to Take Screenshots**:
-- Use your browser’s “Full Page Screenshot” or Snipping Tool
-- Save as `.png` or `.jpg` and place in a `/screenshots` folder
-- Link in the README using:
-```md
-![Home Screenshot](./screenshots/homepage.png)
-```
+![Nested Comments](./src/assets/screenshots/CommentSection.png)
 
 
 ## 🚀 Features

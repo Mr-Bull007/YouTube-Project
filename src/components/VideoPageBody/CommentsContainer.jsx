@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const commentsData = [
   {
     name: "Rushabh Sagara",
@@ -119,5 +121,10 @@ const CommentsContainer = () => {
     </div>
   );
 };
+
+Comment.propTypes = {
+  data: PropTypes.object.isRequired,
+};
+
 
 export default CommentsContainer;

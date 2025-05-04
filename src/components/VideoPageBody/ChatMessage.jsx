@@ -1,4 +1,6 @@
-const ChatMessage = ({name, mssg}) => {
+import PropTypes from "prop-types";
+
+const ChatMessage = ({ name, mssg }) => {
   return (
     <div className=" flex">
       <img
@@ -12,6 +14,11 @@ const ChatMessage = ({name, mssg}) => {
       </div>
     </div>
   );
+};
+
+ChatMessage.propTypes = {
+  name: PropTypes.string.isRequired,
+  mssg: PropTypes.string.isRequired,
 };
 
 export default ChatMessage;

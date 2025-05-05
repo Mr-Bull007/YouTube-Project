@@ -1,13 +1,11 @@
-export const SEARCH_ICON_SVG_URL = "http://www.w3.org/2000/svg";
-export const YT_LOGO_URL =
-  "https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s500";
+export const SEARCH_ICON_SVG_URL = import.meta.env.VITE_SEARCH_ICON_SVG_URL;
+export const YT_LOGO_URL = import.meta.env.VITE_YT_LOGO_URL;
 
-const GOOGLE_API_KEY = "AIzaSyBloDjaoajgN3fIcS7xsI98yzo9RQt3MG0";
+const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
+
 export const YOUTUBE_VIDEOLIST_API =
-  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" +
-  GOOGLE_API_KEY;
+  `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=${GOOGLE_API_KEY}`;
 
-export const YOUTUBE_SEARCH_API =
-  "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+export const YOUTUBE_SEARCH_API = import.meta.env.VITE_YOUTUBE_SEARCH_API;
 
-export const LIVE_CHAT_COUNT = 20;
+export const LIVE_CHAT_COUNT = 20; 
